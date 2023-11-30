@@ -8,8 +8,7 @@
 ```pip3 install requests```
 
 * In order for the tools to work you need to create an access token on SWITCHtube. Add the token to the files\
-```switch_list_channels.py```\
-```switch_upload.py```
+```switch_list_channels.py``` and ```switch_upload.py```
 
 ### Usage
 
