@@ -1,6 +1,6 @@
 ## Python scripts for managing SWITCHtube channels
 
-### Installation 
+### Installation
 
 * Safe the file ```tus.py``` in the same directory as ```switch_list_channels.py``` and ```switch_upload.py```
 
@@ -14,10 +14,14 @@
 
 * Channels to which you can contribute to can then be listed with\
 ```python3 switch_list_channels.py```\
-The first returned number in each entry is the ```CHANNEL_ID```. 
+The first returned number in each entry is the ```CHANNEL_ID```.
 
 * To upload a video use\
 ```python3 switch_upload.py -c CHANNEL_ID -v path_to_video_file -t "Title of the video"```
 
 * To upload a video and set a poster/thumbnail use\
 ```python3 switch_upload.py -c CHANNEL_ID -p path_to_poster_file -v path_to_video_file -t "Title of the video"```
+
+### Credits
+
+The above code is based on the python [scripts provided by SWITCH](https://github.com/Fingertips/SwitchTube-examples#web-service-api)
