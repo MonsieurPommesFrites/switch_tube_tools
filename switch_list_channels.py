@@ -2,7 +2,7 @@ import requests
 
 ORIGIN = 'https://tube.switch.ch'
 
-# Insert your SWITCHtube token here
+# Insert your personal SWITCHtube token string here
 TOKEN = 'REPLACE_WITH_PERSONAL_TOKEN_STRING'
 
 # Get channels and show their id and title.
