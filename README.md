@@ -22,7 +22,7 @@ The first returned number in each entry is the ```CHANNEL_ID```.
 * To upload a video and set a poster/thumbnail use\
 ```python3 switch_upload_video.py -c CHANNEL_ID -p path_to_poster_file -v path_to_video_file -t "Title of the video"```
 
-* To delete a video in the channel with identity ```CHANNEL_ID``` use\
+* To delete a video use\
 ```python3 switch_delete_video.py -c CHANNEL_ID -t "Title of the video"```
 
 ### Credits
