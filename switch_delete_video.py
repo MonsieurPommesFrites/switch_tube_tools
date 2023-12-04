@@ -1,12 +1,8 @@
-
 import argparse
 import requests
-import tus
 
 TOKEN='REPLACE_WITH_PERSONAL_TOKEN_STRING'
 ORIGIN = 'https://tube.switch.ch'
-RETRIES = 10
-CHUNK_SIZE = 52428800 # 50 megabytes
 
 headers = {'Authorization': 'Token ' + TOKEN}
 

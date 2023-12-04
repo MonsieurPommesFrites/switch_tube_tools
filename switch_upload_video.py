@@ -77,6 +77,8 @@ if __name__ == '__main__':
     parser.add_argument('--video', '-v', type=pathlib.Path, help='video file to upload')
     parser.add_argument('--poster', '-p', type=pathlib.Path, help='video file to upload')
     parser.add_argument('--title', '-t', help='id of the channel')
+    parser.add_argument('--info', '-i', help="output csv info line", action='store_true')
+
     arguments = parser.parse_args()
 
     video_upload_id=upload_file(arguments.video)
