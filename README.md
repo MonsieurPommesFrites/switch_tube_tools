@@ -2,14 +2,14 @@
 
 ### Installation
 
-* Safe the file ```tus.py``` in the same directory as ```switch_list_channels.py``` and ```switch_upload.py```
-
 * Requests is needed for the tools to work. It can be installed with
 ```sh
 pip3 install requests
 ```
 
-* In order for the tools to work you need to create an access token on SWITCHtube. Add the token to all files except ```tus.py```.
+* ```switch_upload.py``` needs ```tus.py```. Safe both files in the same directory.
+
+* In order for the tools to work you need to create an access token on SWITCHtube. Add the token to all files ```switch_*.py```.
 
 ### Usage
 
