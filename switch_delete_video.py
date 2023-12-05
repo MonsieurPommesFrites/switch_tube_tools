@@ -15,7 +15,7 @@ def return_video_id_by_title(channel_id,video_title):
     videos=response.json()
     for dictionary in videos:
         if video_title in str(dictionary):
-            return(dictionary['id'])
+            return(int(dictionary['id']))
 
 def delete_video(video_id):
     response = requests.delete(
@@ -34,5 +34,5 @@ if __name__ == '__main__':
 
     
     video_id=return_video_id_by_title(str(args.channel),str(args.title))
-    delete_video(int(video_id))
+    delete_video(video_id)
 
